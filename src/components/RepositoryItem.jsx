@@ -63,7 +63,7 @@ function RepositoryItem({ data }) {
         <RepositoryItemStat value={data.stargazersCount} text={"Stars"} />
         <RepositoryItemStat value={data.forksCount} text={"Forks"} />
         <RepositoryItemStat value={data.reviewCount} text={"Reviews"} />
-        <RepositoryItemStat value={data.reviewCount} text={"Rating"} />
+        <RepositoryItemStat value={data.ratingAverage} text={"Rating"} />
       </View>
     </View>
   );
